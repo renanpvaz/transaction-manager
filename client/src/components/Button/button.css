@@ -1,0 +1,41 @@
+.button {
+  width: 100%;
+  outline: 0;
+  box-sizing: border-box;
+  color: white;
+  background: #65A2E9;
+  transition: filter 0.25s, background 0.25s, box-shadow 0.25s ease-in-out;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: inherit;
+  font-size: inherit;
+  padding: .8em 2rem;
+  display: inline-block;
+  text-decoration: none;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid #65A2E9;
+}
+
+.button:active {
+  box-shadow: none;
+  filter: brightness(90%);
+}
+
+.button--ghost {
+  font-weight: normal;
+  background: transparent;
+  color: #65A2E9;
+  box-shadow: none;
+}
+
+.button--small {
+  width: auto;
+  font-size: 14px;
+  padding: .6em 1rem;
+}
+
+.button--ghost:hover {
+  background: #65A2E9;
+  color: white;
+}

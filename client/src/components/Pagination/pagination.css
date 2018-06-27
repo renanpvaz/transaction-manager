@@ -1,0 +1,31 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 32px 0 0;
+}
+
+.pagination button:not(:last-child) {
+  margin-right: 12px;
+}
+
+.pagination__next,
+.pagination__previous {
+  background: none;
+  border: 0;
+  color: #65A2E9;
+  font-weight: bold;
+}
+
+.pagination__page {
+  background-color: #D1E5FA;
+  border: 0;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #65A2E9;
+  font-weight: bold;
+}
+
+.pagination__page--active {
+  background: #65A2E9;
+  color: white;
+}

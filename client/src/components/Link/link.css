@@ -1,0 +1,10 @@
+.link {
+  cursor: pointer;
+  transition: background 140ms ease-in;
+  outline: 0;
+}
+
+.link:focus,
+.link:hover {
+  background: rgba(58, 56, 52, 0.08);
+}

@@ -1,0 +1,11 @@
+{
+  "transactions": [
+    {
+      "date": "2018-06-27",
+      "type": "CARD",
+      "description": "asjdhakjsda",
+      "amount": 20,
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+.payment-type-selection-option {
+  cursor: pointer;
+  border-radius: 50%;
+  background: #dcfddc;
+  padding: 8px;
+  border: 0;
+  margin-right: 16px;
+  background: #ffdeab;
+  filter: grayscale();
+  transform: scale(.9);
+  transition: filter .2s, transform .2s ease-in-out;
+  height: 64px;
+}
+
+.payment-type-selection-option i {
+  font-size: 3rem;
+}
+
+.payment-type-selection-option:focus {
+  outline: 0;
+}
+
+.payment-type-selection-option--card {
+  background: #ffdeab;
+}
+
+.payment-type-selection-option--money {
+  background: #dcfddc;
+}
+
+.payment-type-selection-option--selected {
+  filter: none;
+  transform: scale(1);
+}

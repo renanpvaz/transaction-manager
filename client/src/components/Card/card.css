@@ -1,0 +1,19 @@
+.card {
+  position: relative;
+  background: white;
+  border-radius: 2px;
+  padding: 32px;
+  border: 2px solid rgb(65, 65, 65)
+}
+
+.card:after {
+  content: '';
+  width: 100%;
+  border: inherit;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: translate(2px, 2px);
+  z-index: -1;
+}

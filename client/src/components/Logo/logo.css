@@ -1,0 +1,21 @@
+.logo {
+  color: rgb(65, 65, 65);
+  font-weight: bold;
+  display: flex;
+  align-items: stretch;
+  font-weight: 400;
+}
+
+.logo__icon {
+  margin-right: 8px;
+  font-style: normal;
+  font-size: .8rem;
+  padding: 4px;
+  border-radius: 2px;
+  border: 2px solid rgb(65, 65, 65);
+  border-left-width: 6px;
+  font-weight: bold;
+  width: max-content;
+  display: flex;
+  align-items: center;
+}

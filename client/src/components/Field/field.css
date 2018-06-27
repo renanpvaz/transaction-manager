@@ -1,0 +1,39 @@
+.field {
+  margin: 32px 0;
+}
+
+.field + .field {
+  margin-top: -16px;
+}
+
+.field__input {
+  line-height: 30px;
+  font-size: 16px;
+  padding: 4px 10px;
+  width: 100%;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid rgb(231, 230, 229);
+  background: rgb(248, 247, 246);
+  cursor: text;
+}
+
+.field__input[disabled] {
+  color: #ccc;
+  pointer-events: none;
+}
+
+.field__input::-webkit-inner-spin-button,
+.field__input::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+.field__label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgb(165, 165, 165);
+  margin-bottom: 8px;
+  display: block;
+}

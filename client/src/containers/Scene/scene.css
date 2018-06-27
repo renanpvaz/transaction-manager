@@ -1,0 +1,38 @@
+.scene {
+  display: flex;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.scene__header {
+  padding: .5rem 1rem;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  height: 45px;
+}
+
+.scene__container {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.scene__content {
+  box-sizing: border-box;
+  padding: 0px 1.5rem 1rem;
+  max-width: 680px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scene__icon {
+  font-weight: normal;
+  color: rgb(66, 66, 65);
+  font-size: 78px;
+}
+
+@media (max-width: 780px) {
+  .scene--with-sidebar-open .scene__container {
+    min-width: 100vw;
+  }
+}

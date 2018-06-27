@@ -1,0 +1,10 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: .5rem 1rem;
+}
+
+.container--sm {
+  max-width: 380px;
+}
